@@ -1,26 +1,25 @@
-@@ -0,0 +1,114 @@
 # Site settings
-title: 刘浪的博客
-SEOTitle: 刘浪的博客 | 刘浪的博客
+title: lang Blog
+SEOTitle: 刘浪的博客 | lang Blog
 header-img: img/post-bg-desk.jpg
 email: lang_224@foxmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, lang Blog, 刘浪的博客, lang, machinelearning, CV, deepLearning"
+keyword: "lang, lang Blog, 刘浪的博客, liula201, 邱柏荧, iOS, Apple, iPhone"
 url: "http://liulang201.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/liula201/liula201.github.io.git" # you code repository
+github_repo: "https://github.com/liulang201/liulang201.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: img/avatar-m      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     liul-38-99
+zhihu_username:     liulang201
 github_username:    liulang201
 facebook_username:  liulang201
 jianshu_username:   liulang201
@@ -58,7 +57,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: liulang201
+# disqus_username: qiubaiying
 
 # Gitalk
 gitalk:
