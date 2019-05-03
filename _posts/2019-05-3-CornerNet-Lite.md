@@ -2,7 +2,7 @@
 ---
 layout:     post
 title:      普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
-subtitle:   CornerNet-Lite
+subtitle:   普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
 date:       2019-05-03
 author:     刘浪
 header-img: img/post-bg-debug.png
@@ -11,7 +11,10 @@ tags:
     - 计算机视觉
     - 深度学习
     - 机器学习
+
 ---
+
+
 # 普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
 
 arXiv: https://arxiv.org/abs/1904.08900
@@ -49,7 +52,7 @@ CornetNet 在 ECCV 2018 （oral）上横空出世，引领基于关键点的目�
 ## 方法
 CornerNet-Saccade检测图像中可能的目标位置周围的小区域内的目标。它使用缩小的全图像来预测注意力地图和粗边界框;两者都建议可能的对象位置。然后，CornerNet-Saccade通过检查以高分辨率为中心的区域来检测物体。它还可以通过控制每幅图像要处理的目标位置的最大数量来实现精度和效率的交换。pipeline概述如图2所示。接下来，将详细描述每个步骤。
 
-![avatar](img/img/../../../img/img/cornernet1.png)
+![avatar](/img/img/cornernet1.png)
 
 图2:CornerNet-Saccade的概述。我们预测一组可能的目标位置，从注意地图(attention maps)和边界框生成的缩小后的完整图像。我们放大每个位置，在那个位置周围裁剪一个小区域。然后我们在每个区域检测对象。我们通过对对象位置进行排序，并选择最上面的k个位置来控制处理效率。最后，我们用NMS合并检测
 
@@ -93,7 +96,7 @@ Hourglass-54里的每个module都比104里浅、参数少。下采样的步长�
 SqueezeNet共使用了3种策略来降低网络复杂度：(1) 使用1×1替换3×3 (2) decreasing input channels to 3×3 kernels (3) 晚一点下采样。
 
 在CornerNet-Squeeze中使用了fire模块替代残差块。受MobileNet的启发，我们把第二层的3×33×3标准卷积替换为3×33×3depth-wise separable 卷积。与CornerNet的对比见表
-![avatar](img/img/../../../img/img/2.png)
+![avatar](/img/img/2.png)
 
 
 总结下思路：
