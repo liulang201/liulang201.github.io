@@ -1,14 +1,14 @@
 @@ -0,0 +1,114 @@
 # Site settings
-title: liulang Blog
-SEOTitle: 刘浪的博客 | liulang Blog
+title: 刘浪的博客
+SEOTitle: 刘浪的博客 | 刘浪的博客
 header-img: img/post-bg-desk.jpg
 email: lang_224@foxmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 刘浪的博客, lang, machinelearning, CV, deepLearning"
-url: "http://liula201.github.io"          # your host, for absolute URL
+keyword: "BY, lang Blog, 刘浪的博客, lang, machinelearning, CV, deepLearning"
+url: "http://liulang201.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/liula201/liula201.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -65,9 +65,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  repo: liulang201.github.io    #仓库名称
+  owner: liulang201    #github用户名
+  admin: liulang201
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
