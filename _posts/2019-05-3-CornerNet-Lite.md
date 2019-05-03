@@ -7,7 +7,9 @@ author:     刘浪
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - CV
+    - 计算机视觉
+    - deeplearning
+    - machine learning
 ---
 
 # 普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
