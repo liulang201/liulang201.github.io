@@ -1,32 +1,4 @@
 
----
-layout:     post
-title:      普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
-subtitle:   普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
-date:       2019-05-03
-author:     刘浪
-header-img: img/post-bg-debug.png
-catalog: true
-tags:
-    - 计算机视觉
-    - 深度学习
-    - 机器学习
-
----
-
----
-layout:     post
-title:      定时器 你真的会使用吗？
-subtitle:   iOS定时器详解
-date:       2016-12-13
-author:     BY
-header-img: img/post-bg-ios10.jpg
-catalog: 	 true
-tags:
-    - iOS
-    - 定时器
----
-
 
 # 普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
 
