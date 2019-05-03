@@ -11,7 +11,17 @@ tags:
     - deeplearning
     - machine learning
 ---
-
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 # 普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
 
 arXiv: https://arxiv.org/abs/1904.08900
