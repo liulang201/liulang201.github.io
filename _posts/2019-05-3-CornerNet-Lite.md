@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
-subtitle:   普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
+subtitle:   CornerNet-Lite
 date:       2019-05-03
 author:     刘浪
 header-img: img/post-bg-universe.jpg
@@ -22,7 +22,7 @@ tags:
         });
     </script>
 </head>
-# 普林斯顿大学ECCV2018:CornerNet-Lite,超越YOLOv3！基于关键点的目标检测
+
 
 arXiv: https://arxiv.org/abs/1904.08900
 
